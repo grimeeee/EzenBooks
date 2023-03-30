@@ -1,0 +1,13 @@
+.review_rating,
+.review_reporting_date,
+.review_writer,
+.user_id,
+.book_num,
+.review_num {
+  width: 220px;
+}
+
+table.review_data tr {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  height: 40px;
+}

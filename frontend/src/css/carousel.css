@@ -1,0 +1,46 @@
+div#book-image {
+  min-width: 300px;
+  min-height: 440px;
+  text-align: center;
+}
+div#book-image img {
+  max-width: 330px;
+  max-height: 440px;
+}
+
+p#book-ranking {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+p#book-title {
+  max-width: 350px;
+  font-size: 18px;
+  font-weight: bold;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+p#book-category {
+  font-size: 18px;
+  text-decoration: underline;
+}
+
+p#Carousel-title {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: left;
+  margin: 0px 0px 15px 25px;
+  color: #301fbf;
+}
+
+h4 {
+  color: #301fbf;
+  font-weight: 700;
+}
+
+div.carousel-item-detail {
+  text-align: center;
+}

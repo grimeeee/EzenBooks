@@ -1,0 +1,80 @@
+/* * {
+  border: 1px solid black;
+} */
+
+li {
+  list-style: none;
+  display: inline-block;
+  width: 150px;
+  height: 60px;
+  font-size: 20px;
+}
+
+.user_role {
+  width: 150px;
+}
+
+.create_date,
+.modify_date,
+.user_id {
+  width: 130px;
+}
+
+.user_name,
+.user_nickname {
+  width: 200px;
+}
+
+.user_email {
+  width: 350px;
+}
+td.user_name,
+td.user_email,
+td.user_nickname {
+  text-align: left;
+  padding-left: 5px;
+}
+
+table.user_data tr {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  height: 40px;
+}
+
+div.userpage-wrap label {
+  text-align: right !important;
+}
+.set_pages label {
+  margin-left: -10px;
+}
+
+td.user_role,
+th.user_role,
+td.user_create_date,
+th.user_create_date,
+td.user_modify_date,
+th.user_modify_date,
+td.user_modify,
+td.user_delete {
+  text-align: center;
+}
+
+.table {
+  margin-bottom: 0;
+}
+
+.UserPage-Wrap {
+  margin-bottom: 30px;
+}
+
+.adminpage-menu li {
+  text-align: center;
+  width: 100px;
+}
+
+.adminpage-wrap {
+  padding: 0px;
+}
+
+.userPage-wrap {
+  padding: 0px;
+}

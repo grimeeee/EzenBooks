@@ -1,0 +1,110 @@
+li {
+  list-style: none;
+  display: inline-block;
+  width: 150px;
+  height: 60px;
+  font-size: 20px;
+}
+
+th {
+  text-align: center;
+  padding: 0px;
+}
+
+tr {
+  text-align: left;
+  padding: 0px;
+}
+
+.booklist-table {
+  min-width: 1500px;
+  max-width: 1500px;
+}
+
+.booklist-table tr {
+  height: 50px;
+}
+
+.book_price {
+  width: 80px;
+}
+
+th#th-book-num {
+  text-align: center;
+}
+
+.book_num,
+.book_pubdate {
+  width: 100px;
+  padding-left: 5px;
+  text-align: left;
+}
+
+.book_category,
+.book_image,
+.book_isbn {
+  width: 120px;
+}
+
+.book_publisher,
+.book_author {
+  width: 150px;
+  word-break: keep-all;
+}
+
+.book_title {
+  width: 300px;
+  padding-left: 10px;
+}
+
+.book_image img {
+  width: 80px;
+  height: 120px;
+}
+
+table.book_data tr {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  height: 40px;
+}
+
+div.bookpage-wrap label {
+  text-align: right !important;
+}
+.set_pages label {
+  margin-left: -10px;
+}
+
+td.book_role,
+th.book_role,
+td.book_create_date,
+th.book_create_date,
+td.book_modify_date,
+th.book_modify_date,
+td.book_modify,
+td.book_delete {
+  text-align: center;
+}
+
+td.book_price {
+  text-align: right;
+}
+
+td.book_image {
+  padding: 0px;
+}
+
+.table {
+  margin-bottom: 0;
+}
+
+.bookPage-Wrap {
+  padding: 0px;
+  width: 1500px;
+}
+
+div.booklist-topmenu .btn-search {
+  width: 60px;
+  height: 30px;
+  margin: 0px 25px 0px 0px;
+  padding: 0;
+}

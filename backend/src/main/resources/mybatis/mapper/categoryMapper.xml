@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+    
+    <!-- namespace 끝에 있는 BookDAO 안에 있는 method 이름과 
+    namespace 에 정의되어 있는 값과 일치해야 한다. -->
+<mapper namespace="com.ezenbooks.backend.dao.CategoryDAO">
+	<select id="getCategoryList" resultType="CategoryDTO">
+		SELECT * FROM BOOK_CATEGORY
+	</select>
+
+</mapper>

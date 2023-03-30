@@ -1,0 +1,40 @@
+li {
+  list-style: none;
+  display: inline-block;
+  width: 150px;
+  height: 60px;
+  font-size: 20px;
+}
+
+th {
+  text-align: center;
+  padding: 0px;
+}
+
+tr {
+  text-align: left;
+  padding: 0px;
+}
+
+.table {
+  min-width: 1500px;
+  max-width: 1500px;
+}
+
+table.saleslist tr {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+  height: 40px;
+}
+
+.table {
+  margin-bottom: 0;
+}
+
+label#set-start-date,
+label#set-end-date {
+  margin-left: 20px;
+}
+
+tr.sales-data th {
+  height: 50px;
+}

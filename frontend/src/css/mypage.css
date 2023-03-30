@@ -1,0 +1,18 @@
+div.mypage-title {
+  color: #301fbf;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+div.mypage-username,
+div.mypage-user-email,
+div.mypage-user-nickname,
+div.mypage-create-date {
+  font-size: 28px;
+  margin-top: 10px;
+}
+
+.user-withdraw,
+.nickname-edit {
+  margin: -5px 0px 0px 20px;
+}

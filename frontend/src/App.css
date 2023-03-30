@@ -1,0 +1,60 @@
+body {
+  font-family: 'Noto Sans Korean';
+  src: url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;600&display=swap')
+    format('woff2');
+  max-width: 1700px;
+}
+
+/* .App {
+  text-align: center;
+} */
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+h4 {
+  text-align: center;
+}
+
+body::-webkit-scrollbar {
+  width: 15px; /* 스크롤바의 너비 */
+  border-radius: 5px;
+}
+
+body::-webkit-scrollbar-thumb {
+  height: 5px; /* 스크롤바의 길이 */
+  background: #ffffff; /* 스크롤바의 색상 */
+  border-radius: 10px;
+}

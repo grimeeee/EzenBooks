@@ -1,0 +1,18 @@
+/* div {
+  border: 1px solid black;
+} */
+
+div.carousel-items {
+  min-width: 330px;
+  min-height: 440px;
+  text-align: center;
+}
+
+a#carousel-img img {
+  max-width: 330px;
+  max-height: 440px;
+}
+
+p#bestseller-book-author {
+  margin-bottom: 25px;
+}

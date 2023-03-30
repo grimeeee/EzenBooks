@@ -1,0 +1,89 @@
+p {
+  font-size: 18px;
+}
+/* div.category-list li {
+  list-style: none;
+  width: 250px;
+  height: 40px;
+} */
+
+li.categorylist_li {
+  height: 38px;
+}
+
+/* 드롭다운 관련 부분 */
+
+li.categorylist_li a.hover,
+li.categorylist_li a:hover {
+  background-color: white;
+  border-color: #4c40c0;
+  border-bottom: 2px solid #4c40c0;
+  width: 130px;
+}
+
+ul.dropdown {
+  margin-left: 10px;
+  border: 2px solid #4c40c0;
+}
+ul.dropdown-wrap {
+  padding-top: 15px;
+}
+div.category-list li a {
+  display: inline-block;
+  position: relative;
+  font-size: 18px;
+  color: black;
+}
+
+div.category-list {
+  padding: 10px;
+}
+
+div.book-img {
+  padding: 0px;
+  text-align: left;
+  width: 130px;
+}
+div.book-img img {
+  width: 120px;
+  height: 190px;
+}
+
+div.book-details {
+  text-align: left;
+  font-size: 20px;
+  padding-left: 0px;
+  margin-left: -80px;
+  width: 1000px;
+}
+
+div.book-title p {
+  font-size: 18px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+p#book-title-name {
+  font-size: 24px;
+  max-width: 1000px;
+}
+p#book-detail-category {
+  font-size: 18px;
+}
+p#book-discounted-price {
+  color: #ec7357;
+  font-weight: bold;
+}
+
+p#book-discounted-percent {
+  color: #ec7357;
+}
+
+.book-cart {
+  margin-left: 10px;
+}
+.book-cart .btn {
+  width: 150px;
+  height: 45px;
+  margin-top: 10px;
+}

@@ -1,0 +1,42 @@
+div.register-wrap,
+div.login-wrap {
+  margin: auto;
+  margin-top: 40px;
+  width: 600px;
+}
+
+div.register-wrap p,
+div.login-wrap p {
+  color: #301fbf;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+div.form-group {
+  margin-bottom: 5px;
+}
+
+label {
+  margin-top: 15px;
+  color: #301fbf;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+p.register-signup {
+  margin: 0;
+  padding: 0;
+}
+
+div.register-body .btn-signup {
+  text-align: center;
+  margin-top: 20px;
+}
+
+div.login-btns {
+  margin: 20px 10px 0px 0px;
+}
+
+button.btn-login {
+  margin-right: 15px;
+}
